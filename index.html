@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Notas VeryPoggers</title>
+    <link rel="stylesheet" href="CSS.css">
+    <script  src="./logicaJs.js"></script>
+  </head>
+  
+  <body>
+    <div class="container">
+    <h1 class="page-title">
+      Calculadora de média
+    </h1>
+    <p class="page-subtitle">
+      Descubra sua média final
+    </p>
+    <label for="nota1">Insira a nota do 1º Bimestre</label><br>
+    <input type="number" id="nota1b" size="2" min="0" max="10" /><br>
+    <label for="nota2">Insira a nota do 2º Bimestre</label><br>
+    <input type="number" id="nota2b" size="2" min="0" max="10" /><br>
+    <label for="nota3">Insira a nota do 3º Bimestre</label><br>
+    <input type="number" id="nota3b" size="2" min="0" max="10" /><br>
+    <label for="nota4">Insira a nota do 4º Bimestre</label><br>
+    <input type="number" id="nota4b" size="2" min="0" max="10" /><br>
+    <button type="submit" onclick="Converter()">Converter</button>
+    <h2 id="notaCalculada"></h2>
+    <h2 id="situacao"></h2>
+    <h2 id="imagem"></h2>
+    <img src="" alt="" id="emote-situacao">
+    </div>
+  </body>
+</html>
